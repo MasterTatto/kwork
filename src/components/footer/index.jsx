@@ -8,22 +8,22 @@ import {ReactComponent as Profile} from "../../assets/svg/footer_profile.svg";
 import classNames from "classnames";
 
 const Footer = () => {
-    const [select,setSelect] = useState(null)
+    const [select, setSelect] = useState(null)
     return (
         <div className={s.footer}>
-            <div className={classNames(s.action_icon,select === 1 && s.select)} onClick={() => setSelect(1)}>
+            <div className={classNames(s.action_icon, select === 1 && s.select)} onClick={() => setSelect(1)}>
                 <Search/>
             </div>
-            <div className={classNames(s.action_icon,select === 2 && s.select)} onClick={() => setSelect(2)}>
+            <div className={classNames(s.action_icon, select === 2 && s.select)} onClick={() => setSelect(2)}>
                 <Like/>
             </div>
             <div className={s.add}>
                 <Plus/>
             </div>
-            <div className={classNames(s.action_icon,select === 3 && s.select)} onClick={() => setSelect(3)}>
+            <div className={classNames(s.action_icon, select === 3 && s.select)} onClick={() => setSelect(3)}>
                 <Chat/>
             </div>
-            <div className={classNames(s.action_icon,select === 4 && s.select)} onClick={() => setSelect(4)}>
+            <div className={classNames(s.action_icon, select === 4 && s.select)} onClick={() => setSelect(4)}>
                 <Profile/>
             </div>
         </div>
