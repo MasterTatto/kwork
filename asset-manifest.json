@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/kwork/static/css/main.5f9c23f5.css",
-    "main.js": "/kwork/static/js/main.29cb16a1.js",
+    "main.css": "/kwork/static/css/main.99877520.css",
+    "main.js": "/kwork/static/js/main.0363df69.js",
+    "static/media/swipper.png": "/kwork/static/media/swipper.8435b33bbb74b29620f7.png",
     "static/media/img4.png": "/kwork/static/media/img4.2da011b831c4d18c271e.png",
     "static/media/img3.png": "/kwork/static/media/img3.b7f5bb79e2664228da30.png",
     "static/media/img5.png": "/kwork/static/media/img5.e8e7d2b451c0d4ef03f3.png",
@@ -10,6 +11,7 @@
     "static/media/img1.png": "/kwork/static/media/img1.1eb2e71c493d08f01a21.png",
     "static/media/img2.png": "/kwork/static/media/img2.9d256a9c1b1cd9b191df.png",
     "static/media/logo.svg": "/kwork/static/media/logo.e8e9a64f703cac049064504fb729a926.svg",
+    "static/media/timer.svg": "/kwork/static/media/timer.23432dd4c8ddc1750c0e2c00b01a702a.svg",
     "static/media/like_item.svg": "/kwork/static/media/like_item.6c66cf5608502b7b1f81371c29cf5cc5.svg",
     "static/media/footer_chat.svg": "/kwork/static/media/footer_chat.b5e2ae1cc8622c1192f0a361b0a0aeca.svg",
     "static/media/footer_like.svg": "/kwork/static/media/footer_like.9019520a62d08234dd17795c78a026a8.svg",
@@ -25,11 +27,11 @@
     "static/media/cancel.svg": "/kwork/static/media/cancel.4e81afe128ae8a8a661e9212813dcfaf.svg",
     "static/media/search.svg": "/kwork/static/media/search.3d3f53d8f7a1836f6a46573a1c6fba56.svg",
     "static/media/footer_add.svg": "/kwork/static/media/footer_add.77dfb775a3164a788133d49fab4258d9.svg",
-    "main.5f9c23f5.css.map": "/kwork/static/css/main.5f9c23f5.css.map",
-    "main.29cb16a1.js.map": "/kwork/static/js/main.29cb16a1.js.map"
+    "main.99877520.css.map": "/kwork/static/css/main.99877520.css.map",
+    "main.0363df69.js.map": "/kwork/static/js/main.0363df69.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f9c23f5.css",
-    "static/js/main.29cb16a1.js"
+    "static/css/main.99877520.css",
+    "static/js/main.0363df69.js"
   ]
 }
