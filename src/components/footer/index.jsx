@@ -6,26 +6,29 @@ import {ReactComponent as Plus} from "../../assets/svg/footer_add.svg";
 import {ReactComponent as Chat} from "../../assets/svg/footer_chat.svg";
 import {ReactComponent as Profile} from "../../assets/svg/footer_profile.svg";
 import classNames from "classnames";
+import {NavLink, useLocation} from "react-router-dom";
 
 const Footer = () => {
-    const [select, setSelect] = useState(null)
+    const {pathname} = useLocation()
+
     return (
         <div className={s.footer}>
-            <div className={classNames(s.action_icon, select === 1 && s.select)} onClick={() => setSelect(1)}>
+            <NavLink to={'/'}
+                     className={classNames(s.action_icon, (pathname === '/' || pathname.includes('fid')) && s.select)}>
                 <Search/>
-            </div>
-            <div className={classNames(s.action_icon, select === 2 && s.select)} onClick={() => setSelect(2)}>
+            </NavLink>
+            <NavLink to={'/favorite'} className={classNames(s.action_icon, pathname === '/favorite' && s.select)}>
                 <Like/>
-            </div>
-            <div className={s.add}>
+            </NavLink>
+            <NavLink to={'/'} className={s.add}>
                 <Plus/>
-            </div>
-            <div className={classNames(s.action_icon, select === 3 && s.select)} onClick={() => setSelect(3)}>
+            </NavLink>
+            <NavLink to={'/chat'} className={classNames(s.action_icon, pathname === '/chat' && s.select)}>
                 <Chat/>
-            </div>
-            <div className={classNames(s.action_icon, select === 4 && s.select)} onClick={() => setSelect(4)}>
+            </NavLink>
+            <NavLink to={'/profile'} className={classNames(s.action_icon, (pathname === '/profile' || pathname === '/subscribers') && s.select)}>
                 <Profile/>
-            </div>
+            </NavLink>
         </div>
     );
 };

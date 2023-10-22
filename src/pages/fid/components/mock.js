@@ -10,28 +10,112 @@ export const mock = [
     {
         title: 'Авто',
         data: [
-            {title: 'Party in Babushka House', img: img1, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img2, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img3, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img4, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
+            {
+                title: 'Party in Babushka House',
+                id: 1,
+                img: img1,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 2,
+                img: img2,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 3,
+                img: img3,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 4,
+                img: img4,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
         ]
     },
     {
         title: 'Музыка',
         data: [
-            {title: 'Party in Babushka House', img: img5, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img6, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img7, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img7, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
+            {
+                title: 'Party in Babushka House',
+                id: 1,
+                img: img5,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 2,
+                img: img6,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 3,
+                img: img7,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 4,
+                img: img7,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
         ]
     },
     {
         title: 'Кино',
         data: [
-            {title: 'Party in Babushka House', img: img5, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img6, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img7, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
-            {title: 'Party in Babushka House', img: img7, location: 'Moscow', date: 'November 28, 2023', time: '20:00'},
+            {
+                title: 'Party in Babushka House',
+                id: 1,
+                img: img5,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 2,
+                img: img6,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 3,
+                img: img7,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
+            {
+                title: 'Party in Babushka House',
+                id: 4,
+                img: img7,
+                location: 'Moscow',
+                date: 'November 28, 2023',
+                time: '20:00'
+            },
         ]
     },
 ]

@@ -6,10 +6,11 @@ import {ReactComponent as Location} from "../../../../assets/svg/location_item.s
 import {ReactComponent as Calendar} from "../../../../assets/svg/calendar_item.svg";
 import {ReactComponent as Time} from "../../../../assets/svg/time_item.svg";
 import {Avatar} from "@mui/material";
+import {NavLink} from "react-router-dom";
 
-const Item = ({title,img,location,date,time}) => {
+const Item = ({title, img, location, date, time, id}) => {
     return (
-        <div className={s.item}>
+        <NavLink to={`/fid/${id}`} className={s.item}>
             <div className={s.like_mobile}>
                 <LikeMobile/>
             </div>
@@ -34,7 +35,7 @@ const Item = ({title,img,location,date,time}) => {
                     <div className={s.content_bottom_item}><Time/> <p>{time}</p></div>
                 </div>
             </div>
-        </div>
+        </NavLink>
     );
 };
 
