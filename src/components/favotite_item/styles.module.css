@@ -53,6 +53,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    max-width: 90%;
 }
 
 .icon_title {
