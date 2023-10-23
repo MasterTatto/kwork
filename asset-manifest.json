@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kwork/static/css/main.73c67d66.css",
-    "main.js": "/kwork/static/js/main.47f8258c.js",
+    "main.css": "/kwork/static/css/main.a79535e1.css",
+    "main.js": "/kwork/static/js/main.ee499b22.js",
     "static/media/swipper.png": "/kwork/static/media/swipper.8435b33bbb74b29620f7.png",
     "static/media/img4.png": "/kwork/static/media/img4.2da011b831c4d18c271e.png",
     "static/media/img3.png": "/kwork/static/media/img3.b7f5bb79e2664228da30.png",
@@ -19,6 +19,7 @@
     "static/media/sub4.png": "/kwork/static/media/sub4.4d9d832e63eb1b119ab4.png",
     "static/media/sub3.png": "/kwork/static/media/sub3.b1ee96314b23bcf46248.png",
     "static/media/timer.svg": "/kwork/static/media/timer.23432dd4c8ddc1750c0e2c00b01a702a.svg",
+    "static/media/pin.svg": "/kwork/static/media/pin.f8087578a46366fcb0307408ecf1a888.svg",
     "static/media/like_item.svg": "/kwork/static/media/like_item.6c66cf5608502b7b1f81371c29cf5cc5.svg",
     "static/media/footer_chat.svg": "/kwork/static/media/footer_chat.b5e2ae1cc8622c1192f0a361b0a0aeca.svg",
     "static/media/footer_like.svg": "/kwork/static/media/footer_like.9019520a62d08234dd17795c78a026a8.svg",
@@ -37,12 +38,14 @@
     "static/media/cancel.svg": "/kwork/static/media/cancel.4e81afe128ae8a8a661e9212813dcfaf.svg",
     "static/media/search.svg": "/kwork/static/media/search.3d3f53d8f7a1836f6a46573a1c6fba56.svg",
     "static/media/delete.svg": "/kwork/static/media/delete.0f542f53904948d91cde8d082fd53552.svg",
+    "static/media/status_read_chat.svg": "/kwork/static/media/status_read_chat.f777fe0401a5899f676017a53936036f.svg",
     "static/media/footer_add.svg": "/kwork/static/media/footer_add.77dfb775a3164a788133d49fab4258d9.svg",
-    "main.73c67d66.css.map": "/kwork/static/css/main.73c67d66.css.map",
-    "main.47f8258c.js.map": "/kwork/static/js/main.47f8258c.js.map"
+    "static/media/status_usread_chat.svg": "/kwork/static/media/status_usread_chat.e81d6020b56244b14159e9399823b8bc.svg",
+    "main.a79535e1.css.map": "/kwork/static/css/main.a79535e1.css.map",
+    "main.ee499b22.js.map": "/kwork/static/js/main.ee499b22.js.map"
   },
   "entrypoints": [
-    "static/css/main.73c67d66.css",
-    "static/js/main.47f8258c.js"
+    "static/css/main.a79535e1.css",
+    "static/js/main.ee499b22.js"
   ]
 }
