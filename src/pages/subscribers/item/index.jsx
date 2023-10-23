@@ -2,8 +2,9 @@ import React from 'react';
 import s from './styles.module.css'
 import {Avatar} from "@mui/material";
 import {ReactComponent as Chat} from "../../../assets/svg/chat_message.svg";
+import {NavLink} from "react-router-dom";
 
-const Item = ({img, isSubscribe, nikname, fullname, isOnline}) => {
+const Item = ({img, isSubscribe, nikname, fullname, isOnline, id_chat}) => {
     return (
         <div className={s.item}>
             <div className={s.avatar}>
@@ -16,7 +17,8 @@ const Item = ({img, isSubscribe, nikname, fullname, isOnline}) => {
                     <p className={s.fullname}>{fullname}</p>
                     {isSubscribe && <p className={s.unsubscribe}>Отписаться</p>}
                 </div>
-                {isSubscribe ? <Chat/> : <div className={s.btn}>Подписаться</div>}
+                {isSubscribe ? <NavLink to={`/chat/${id_chat}`}><Chat/></NavLink> :
+                    <div className={s.btn}>Подписаться</div>}
             </div>
         </div>
     );

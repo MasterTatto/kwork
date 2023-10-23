@@ -3,8 +3,9 @@ import s from './styles.module.css'
 import Container from "../../components/container";
 import Navigate from "./components/navigate";
 import Cheaps from "./components/cheaps";
-import Item from "./components/item";
 import {mock} from "./components/mock";
+import {NavLink} from "react-router-dom";
+import ItemFid from "../../components/item_fid";
 
 const Fid = () => {
     return (
@@ -18,11 +19,11 @@ const Fid = () => {
                     {mock.map((el, i) => <div key={i} className={s.main_content_item}>
                         <div className={s.main_content_item_header}>
                             <h3 className={s.title}>{el.title}</h3>
-                            <p className={s.show_more}>Все</p>
+                            <NavLink to={`/fid/all/${el.title}`} className={s.show_more}>Все</NavLink>
 
                         </div>
                         <div className={s.content_items}>
-                            {el.data.map((item, ind) => <Item key={ind} {...item}/>)}
+                            {el.data.map((item, ind) => <ItemFid key={ind} {...item}/>)}
                         </div>
                     </div>)}
                 </div>

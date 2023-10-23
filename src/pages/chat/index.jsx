@@ -1,9 +1,38 @@
-import React from 'react';
+import React, {useState} from 'react';
+import s from "./styles.module.css";
+import {ReactComponent as Search} from "../../assets/svg/search.svg";
+import {ReactComponent as Cancel} from "../../assets/svg/cancel.svg";
+import {mock} from "./mock";
+import Item from "./item";
 
 const Chat = () => {
+    const [value, setValue] = useState('')
+    const [navigate, setNavigate] = useState(1)
+
+    const filter_data = navigate === 2 ? mock.filter(f => f.isOnline) : mock
     return (
-        <div>
-            Chat
+        <div className={s.main}>
+            <div className={s.input_box}>
+                <div className={s.search}>
+                    <Search/>
+                </div>
+                <input placeholder={'Поиск...'} className={s.input} type="text" value={value}
+                       onChange={(e) => setValue(e.target.value)}/>
+                <div className={s.cancel} onClick={() => setValue('')}>
+                    <Cancel/>
+                </div>
+            </div>
+            <div className={s.navigate}>
+                <div className={s.navigate_item} onClick={() => setNavigate(1)}>Все</div>
+                <div className={s.navigate_item} onClick={() => setNavigate(2)}>Онлайн</div>
+                <div className={s.line} style={{
+                    left: navigate === 1 ? 0 : '50%'
+                }}/>
+            </div>
+
+            <div className={s.content}>
+                {filter_data.map((el, i) => <Item key={i} {...el}/>)}
+            </div>
         </div>
     );
 };

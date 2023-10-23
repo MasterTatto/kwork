@@ -8,6 +8,8 @@ import Favorite from "./pages/favorite";
 import Chat from "./pages/chat";
 import Profile from "./pages/profile";
 import Subscribers from "./pages/subscribers";
+import ChatUser from "./pages/chat_user";
+import FidAll from "./pages/fid_all";
 
 function App() {
     return (
@@ -16,8 +18,10 @@ function App() {
             <Routes>
                 <Route path={'/'} element={<Fid/>}/>
                 <Route path={'/fid/:id'} element={<FidView/>}/>
+                <Route path={'/fid/all/:name'} element={<FidAll/>}/>
                 <Route path={'/favorite'} element={<Favorite/>}/>
                 <Route path={'/chat'} element={<Chat/>}/>
+                <Route path={'/chat/:id'} element={<ChatUser/>}/>
                 <Route path={'/profile'} element={<Profile/>}/>
                 <Route path={'/subscribers'} element={<Subscribers/>}/>
             </Routes>

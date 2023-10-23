@@ -1,0 +1,113 @@
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    border-radius: 16px;
+    background: #3B4CDC;
+    color: #DFE0FF;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.back {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 8px;
+}
+
+.title {
+    color: #1C1B1F;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    width: fit-content;
+}
+
+.reset {
+    color: #2F89FC;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: right;
+    width: fit-content;
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_item_s {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.input_box {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: fit-content;
+    margin: 25px auto;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    height: 36px;
+    padding-left: 43px;
+    padding-right: 51px;
+    color: #1C1B1F;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 100px;
+    background: #E3E1EC;
+}
+
+.input::placeholder {
+    color: rgba(28, 27, 31, 0.6);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+}
+
+.search {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 12px 16px 12px;
+    cursor: pointer;
+}
+
+.cancel {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    padding: 16px;
+    cursor: pointer;
+}
