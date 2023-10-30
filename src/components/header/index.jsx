@@ -7,7 +7,7 @@ import Container from "../container";
 const Header = () => {
     return (
         <div className={s.header}>
-            <Container>
+            <div className={s.container}>
                 <div className={s.content}>
                     <div className={s.logo}>
                         <Logo/>
@@ -26,7 +26,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </Container>
+            </div>
         </div>
     );
 };

@@ -2,9 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: calc(100%);
     background: #000;
     height: 48px;
+}
+
+.container {
+    width: calc(100% - 226px);
+    padding: 0 10px;
 }
 
 .content {
@@ -12,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
     min-height: 100%;
 }
 

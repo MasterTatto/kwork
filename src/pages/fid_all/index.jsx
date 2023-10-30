@@ -6,14 +6,14 @@ import {ReactComponent as Setting} from "../../assets/svg/settings.svg";
 import {ReactComponent as Compass} from "../../assets/svg/compass.svg";
 import {ReactComponent as Arrow} from "../../assets/svg/arrow.svg";
 import {ReactComponent as Sort} from "../../assets/svg/sort.svg";
-import {mock} from "../fid/components/mock";
+// import {mock} from "../fid/components/mock";
 import ItemFid from "../../components/item_fid";
 import ModalFind from "./modals/modal_find";
 import ModalSort from "./modals/modal_sort";
 
 const FidAll = () => {
     const {name} = useParams()
-    const current_box = mock.find((f) => f.title === name)
+    // const current_box = mock.find((f) => f.title === name)
 
     const [openFindModal, setOpenFindModal] = useState(false)
     const [openSortModal, setOpenSortModal] = useState(false)
@@ -45,7 +45,7 @@ const FidAll = () => {
             </div>
 
             <div className={s.content}>
-                {current_box?.data?.map((el, ind) => <ItemFid key={ind} {...el}/>)}
+                {/*{current_box?.data?.map((el, ind) => <ItemFid key={ind} {...el}/>)}*/}
             </div>
         </div>
     );

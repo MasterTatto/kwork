@@ -1,0 +1,118 @@
+.item {
+    min-height: 180px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_left {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 13.5px 0;
+}
+
+.content_right {
+    height: 100%;
+    margin-left: 88px;
+}
+
+.content_right svg {
+
+}
+
+.title {
+    color: #1C1B1F;
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.description {
+    margin-top: 8px;
+    color: var(--material-theme-sys-light-on-surface, #1C1B1F);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 118.75% */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.content_left_bottom {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.stock_avatar {
+    display: flex;
+    margin-left: 30px;
+}
+
+.total_avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FEF7FF;
+    background: #FFF;
+    margin-left: -16px;
+    position: relative;
+    z-index: 3;
+    color: #3B4CDC;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+}
+
+.content_left_bottom_info_item svg {
+    height: 24px;
+    width: auto;
+}
+
+.content_left_bottom_info_item {
+    display: flex;
+    align-items: center;
+}
+
+.content_left_bottom_info_item p {
+    margin-left: 8px;
+    color: var(--material-theme-sys-light-on-surface-variant, #46464F);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.content_left_bottom_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+

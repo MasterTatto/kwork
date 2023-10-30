@@ -1,0 +1,214 @@
+.filtered {
+    min-width: 300px;
+    width: 300px;
+    background: #fff;
+    margin-right: -113px;
+    position: sticky;
+    top: 16px;
+    margin-top: 32px;
+    padding: 16px;
+    max-height: calc(100vh - 32px);
+    height: fit-content;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;*/
+}
+
+.filtered::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+.filtered::-webkit-scrollbar-track {
+    background: gray;
+}
+
+.filtered::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+}
+
+.reset_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset {
+    color: var(--material-theme-sys-light-primary, #3B4CDC);
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.title {
+    color: var(--material-theme-sys-light-on-surface, #1C1B1F);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
+.category_box {
+    margin-top: 8px;
+}
+
+.category_box_v2 {
+    margin-top: 16px;
+}
+
+.category_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.category {
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 24px;
+    border: 1px solid var(--material-theme-sys-light-outline, #79747E);
+    opacity: 0.6;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--material-theme-sys-light-on-surface-variant, #47464F);
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    transition: .3s all;
+}
+
+.active_category {
+    opacity: 1;
+    color: #1D192B;
+    background: #E0E0F9;
+    border: 1px solid var(--material-theme-sys-light-outline, #E0E0F9);
+}
+
+.box {
+    margin-top: 16px;
+}
+
+.input_box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input_box input {
+    width: 100%;
+    height: 36px;
+    outline: none;
+    border: none;
+    padding: 10px 16px 10px 43px;
+    border-radius: 100px;
+    color: var(--material-theme-sys-light-outline, #79747E);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.5px;
+    background: var(--material-theme-sys-light-surface-variant, #E3E1EC);
+}
+
+.input_box input::placeholder {
+    color: var(--material-theme-sys-light-outline, #79747E);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.5px;
+}
+
+.input_box input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 5%;
+}
+
+.input_box input[type="date"]::before {
+    content: attr(data-placeholder);
+    width: 100%;
+}
+
+/* hide our custom/fake placeholder text when in focus to show the default
+ * 'mm/dd/yyyy' value and when valid to show the users' date of birth value.
+ */
+.input_box input[type="date"]:focus::before,
+.input_box input[type="date"]:valid::before {
+    display: none
+}
+
+.input_box svg {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 16px;
+    z-index: 1;
+}
+
+.cheep_days {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid var(--material-theme-sys-light-outline, #79747E);
+    height: 42px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cheep_day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--material-theme-sys-light-on-surface, #1C1B1F);
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    background: #FEF7FF;
+    cursor: pointer;
+    transition: .4s all;
+    padding: 0 12px;
+}
+
+.cheep_day svg {
+    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+}
+
+.switch_box {
+    display: grid;
+    grid-row-gap: 16px;
+    margin-top: 32px;
+}
+
+.switch_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch_item p {
+    color: var(--material-theme-sys-light-on-background, #1D1B20);
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
