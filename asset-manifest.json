@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kwork/static/css/main.f8f9a957.css",
-    "main.js": "/kwork/static/js/main.56d37e20.js",
+    "main.css": "/kwork/static/css/main.7d82ea74.css",
+    "main.js": "/kwork/static/js/main.db21a0c3.js",
     "static/media/swipper.png": "/kwork/static/media/swipper.8435b33bbb74b29620f7.png",
     "static/media/img4.png": "/kwork/static/media/img4.2da011b831c4d18c271e.png",
     "static/media/img3.png": "/kwork/static/media/img3.b7f5bb79e2664228da30.png",
@@ -47,11 +47,11 @@
     "static/media/close.svg": "/kwork/static/media/close.038ab0b2f77b8959017b37fb61f2a7c9.svg",
     "static/media/status_usread_chat.svg": "/kwork/static/media/status_usread_chat.e81d6020b56244b14159e9399823b8bc.svg",
     "static/media/sort.svg": "/kwork/static/media/sort.24b4774a76f02248d897fc93149d9d5b.svg",
-    "main.f8f9a957.css.map": "/kwork/static/css/main.f8f9a957.css.map",
-    "main.56d37e20.js.map": "/kwork/static/js/main.56d37e20.js.map"
+    "main.7d82ea74.css.map": "/kwork/static/css/main.7d82ea74.css.map",
+    "main.db21a0c3.js.map": "/kwork/static/js/main.db21a0c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f9a957.css",
-    "static/js/main.56d37e20.js"
+    "static/css/main.7d82ea74.css",
+    "static/js/main.db21a0c3.js"
   ]
 }
